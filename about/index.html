@@ -5,20 +5,20 @@
     <meta charset="utf-8" />
   </head>
   <body>
-    <header>Something about me</header>
+    <h1>Something about me</h1>
     <main>
      <section class="born">
-       <h1 id="upbringing">My Upbringing</h1>
+       <h2 id="upbringing">My Upbringing</h2>
           <p id="upbringing-des">I was born in Acapulco, Guerrero Mexico. Migrated with parents to United States during the 1980s. <br>
              I am the youngest of six children. My father was a steel worker, and my mother-now retired- worked as a seamstress for a
              filter manufacturing company</p>
      </section>
      <section class="my-hobbies">
-      <h1 id="hobbies">Hobbies</h1>
+      <h2 id="hobbies">Hobbies</h2>
         <ul id="gym">
           <li>Weight training
             <ul id="gym-name">
-              <li>Membership at La Fitness
+              <li>Membership at La Fitness<li>
                 <ul id="gym-location">
                   <li>Usually frequent Broadview location
                     <ul id="gym-times">
@@ -26,7 +26,6 @@
                     </ul>
                   </li>
                 </ul>
-              </li>
             </ul>
           </li>
         </ul>
@@ -35,7 +34,13 @@
           <li>Enjoy taking pictures and videos of natural</li>
         </ul>
         <figure id="white-flower">
-          <img src="pictures/white-flower-300.jpg" alt="photo of white flower">
+          <img src="pictures/white-flower-300.jpg" alt="photo of white flower" 
+               sizes="100vw"
+               srcset="pictures/white-flower-300.jpg 300w,
+                       pictures/white-flower-600.jpg 600w,
+                       pictures/white-flower-900.jpg 900w,
+                       pictures/white-flower-1200.jpg 1200w,
+                       pictures/white-flower-2400.jpg 2400w">
           <figcaption>
             <p>Moms favorite curb appeal flower</p>
           </figcaption>
