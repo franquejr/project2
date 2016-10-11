@@ -9,8 +9,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /*
-  Setting type to a minor third modular scale
-  http://www.modularscale.com/?18&px&1.2&web&text
+  Setting type to a major second modular scale
+ http://www.modularscale.com/?20&px&1.125&web&text
 */
 
 
@@ -19,8 +19,6 @@ html {
   line-height: 1.2em; /*24/20= 1.2 em */
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
 }
-
-
 
 h1 {
   font-size: 1.601em; /* 32.036px/20px = 1.601em */
@@ -38,6 +36,31 @@ li {
 li:last-child {
   padding-bottom: 0;
 }
+
+#resume {
+  font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+#resume #objective{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#resume #my-name {
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
+}
+
+#resume #education {
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#resume #emp-history{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
 
 /* ===== MODULAR STYLES ===== */
 
