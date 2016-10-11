@@ -61,7 +61,15 @@ li:last-child {
   line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
+#resume #employer1-name{
+  font-size: 1.265em; /* 25.313/20px = 1.265em */
+  line-height: 1.777em; /* 45/25.313 = 1.777em */
+}
 
+#resume #employer2-name{
+  font-size: 1.265em; /* 25.313px/20px = 1.265em */
+  line-height: 1.777em; /* 45/25.313 = 1.777em */
+}
 /* ===== MODULAR STYLES ===== */
 
 
