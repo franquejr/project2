@@ -37,6 +37,11 @@ li:last-child {
   padding-bottom: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 #resume {
   font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
 }
