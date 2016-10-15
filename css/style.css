@@ -37,7 +37,20 @@ li:last-child {
   padding-bottom: 0;
 }
 
-img {
+#about-page ul {
+  padding-bottom: 1.2em; /* 1 girdline */
+}
+
+#about-page li {
+  padding-bottom: 0.5em; /*half grid line 10px/20px = 0.5em */ 
+}
+
+#about-page li:last-child {
+  padding-bottom: 0;
+}
+
+img,
+video {
   display: block;
   max-width: 100%;
 }
@@ -87,7 +100,42 @@ img {
   color:#0980e8;
 }
 
+#about-page #about-h1 {
+  font-size: 1.953em; /* 39.063/20px = 1.953em*/
+  line-height: 1.777em; /* 45/39.063 = 1.151em */
+}
+
+#about-page #upbringing{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#about-page #hobbies {
+  font-size: 1.265em; /* 25.313/20px = 1.265em */
+  line-height: 1.777em; /* 45/25.313 = 1.777em */
+}
+
+#about-page #photography {
+  font-size: 1.265em; /* 25.313/20px = 1.265em */
+  line-height: 1.777em; /* 45/25.313 = 1.777em */
+}
+
+#about-page #videography {
+  font-size: 1.265em; /* 25.313/20px = 1.265em */
+  line-height: 1.777em; /* 45/25.313 = 1.777em */
+}
+
 #chkn-rice {
+  display:block;
+  max-width: 100%;
+}
+
+#white-flower {
+  display:block;
+  max-width: 100%;
+}
+
+#about-page #bird-video {
   display:block;
   max-width: 100%;
 }
@@ -115,6 +163,9 @@ img {
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
 }
 
+#about-page{
+  padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+}
 /* ===== MODULAR STYLES ===== */
 
 .content ul {
