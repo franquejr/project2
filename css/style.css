@@ -166,6 +166,7 @@ video {
 #about-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
 }
+<<<<<<< HEAD
 
 #resume-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
@@ -197,6 +198,8 @@ video {
 #resume-page #my-name {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
+=======
+>>>>>>> b55585579975e100d9a7c3566be3135cb709d2c2
 /* ===== MODULAR STYLES ===== */
 
 .content ul {
