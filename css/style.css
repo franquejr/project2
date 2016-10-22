@@ -55,41 +55,42 @@ video {
   max-width: 100%;
 }
 
-#resume {
+#resume-page {
   font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
+  background-color: #e2c7c0; /* https://www.google.com/#q=html+color+picker */
 }
 
-#resume #objective{
+#resume-page #objective{
   font-size: 1.423em; /* 28.477px/20px = 1.423em */
   line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
-#resume #my-name {
+#resume-page #my-name {
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
 }
 
-#resume #education {
+#resume-page #education {
   font-size: 1.423em; /* 28.477px/20px = 1.423em */
   line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
-#resume #emp-history {
+#resume-page #emp-history {
   font-size: 1.423em; /* 28.477px/20px = 1.423em */
   line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
-#resume #employer1-name {
+#resume-page #employer1-name {
   font-size: 1.265em; /* 25.313/20px = 1.265em */
   line-height: 1.777em; /* 45/25.313 = 1.777em */
 }
 
-#resume #employer2-name {
+#resume-page #employer2-name {
   font-size: 1.265em; /* 25.313px/20px = 1.265em */
   line-height: 1.777em; /* 45/25.313 = 1.777em */
 }
 
-#resume #employer2-name {
+#resume-page #employer2-name {
   font-size: 1.265em; /* 25.313px/20px = 1.265em */
   line-height: 1.777em; /* 45/25.313 = 1.777em */
 }
@@ -166,7 +167,7 @@ video {
 #about-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
 }
-<<<<<<< HEAD
+
 
 #resume-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
@@ -188,7 +189,6 @@ video {
 
 #nav-links li a {
   display: block;
-  text-decoration: none;
   background-color: #ba8071;
   color: #302421;
   padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
@@ -198,8 +198,7 @@ video {
 #resume-page #my-name {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
-=======
->>>>>>> b55585579975e100d9a7c3566be3135cb709d2c2
+
 /* ===== MODULAR STYLES ===== */
 
 .content ul {
@@ -214,6 +213,10 @@ video {
 #link-about {
   color: #EFE5BE;
   background-color: #555;
+}
+
+#nav-links li a {
+  text-decoration: none;
 }
 /* ===== STATE STYLES ===== */
 
