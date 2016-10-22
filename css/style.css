@@ -178,16 +178,16 @@ video {
   top: 0;
 }
 
-#nav-links li {
+#resume-page #nav-links li {
   display: inline-block;
 }
 
-#nav-links {
+#resume-page #nav-links {
   padding: 0;
   line-height: 1;
 }
 
-#nav-links li a {
+#resume-page #nav-links li a {
   display: block;
   background-color: #ba8071;
   color: #302421;
@@ -199,6 +199,31 @@ video {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
+#cuban-page #nav-links {
+  position: absolute;
+  top: 0;
+}
+
+#cuban-page #nav-links li {
+  display: inline-block;
+}
+
+#cuban-page #nav-links {
+  padding: 0;
+  line-height: 1;
+}
+
+#cuban-page #nav-links li a {
+  display: block;
+  background-color: #ba8071;
+  color: #302421;
+  padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+}
+
+#cuban-page #south-beach {
+  padding-top: 3.3em; /* 66px/20px=3.3em*/
+}
 /* ===== MODULAR STYLES ===== */
 
 .content ul {
