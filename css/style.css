@@ -162,6 +162,7 @@ video {
 
 #cuban-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9; /* https://www.google.com/#q=html+color+picker */ 
 }
 
 #about-page{
@@ -215,8 +216,8 @@ video {
 
 #cuban-page #nav-links li a {
   display: block;
-  background-color: #ba8071;
-  color: #302421;
+  background-color: #adceb9;
+  color: #456077;
   padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
   padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
 }
