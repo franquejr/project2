@@ -57,7 +57,7 @@ video {
 
 #resume-page {
   font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
-  background-color: #e2c7c0; /* https://www.google.com/#q=html+color+picker */
+  background-color: #deefe4; /* https://www.google.com/#q=html+color+picker */
 }
 
 #resume-page #objective{
@@ -167,6 +167,7 @@ video {
 
 #about-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9;
 }
 
 
@@ -190,7 +191,7 @@ video {
 
 #resume-page #nav-links li a {
   display: block;
-  background-color: #ba8071;
+  background-color: #c9d6cd;
   color: #302421;
   padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
   padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
@@ -225,6 +226,32 @@ video {
 #cuban-page #south-beach {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
+
+#about-page #nav-links {
+  position: absolute;
+  top: 0;
+}
+
+#about-page #nav-links li {
+  display: inline-block;
+}
+
+#about-page #nav-links {
+  padding: 0;
+  line-height: 1;
+}
+
+#about-page #nav-links li a {
+  display: block;
+  background-color: #adceb9;
+  color: #456077;
+  padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+}
+
+#about-page #about-h1 {
+  padding-top: 3.3em; /* 66px/20px=3.3em*/
+}
 /* ===== MODULAR STYLES ===== */
 
 .content ul {
@@ -243,6 +270,10 @@ video {
 
 #nav-links li a {
   text-decoration: none;
+}
+
+#resume-page #my-email li a{
+   text-decoration: none;
 }
 /* ===== STATE STYLES ===== */
 
