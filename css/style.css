@@ -73,6 +73,11 @@ li:last-child {
   font-family: 'Abril Fatface', cursive;
 }
 
+#footer{
+  padding-top: 1.2em; /* 1 girdline */
+  background-color: #c9d6cd;
+}
+
 img,
 video {
   display: block;
