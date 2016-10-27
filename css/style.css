@@ -49,6 +49,26 @@ li:last-child {
   padding-bottom: 0;
 }
 
+#about-page #about-h1{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#about-page #upbringing{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#about-page #hobbies{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#about-page #photography{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#about-page #videography{
+  font-family: 'Abril Fatface', cursive;
+}
+
 img,
 video {
   display: block;
