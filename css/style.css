@@ -37,6 +37,10 @@ li:last-child {
   padding-bottom: 0;
 }
 
+#html-about {
+  font-family: 'Neuton', serif;
+}
+
 #about-page ul {
   padding-bottom: 1.2em; /* 1 girdline */
 }
