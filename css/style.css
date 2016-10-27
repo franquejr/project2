@@ -304,6 +304,10 @@ video {
 #resume-page #my-email li a{
    text-decoration: none;
 }
+
+#employer1-desc li {
+  list-style: square inside;
+}
 /* ===== STATE STYLES ===== */
 
 /* 650 @ 16px/em */
