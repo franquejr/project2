@@ -311,6 +311,17 @@ video {
 }
 /* ===== STATE STYLES ===== */
 
+/* 460 @ 18px/em*/
+@media screen and (min-width: 25.55em){
+
+  #cuban-page{
+    padding-left: 2.391%;/* 11px margin / 460 */
+    padding-right: 2.391%;/* 11px margin / 460 */
+  }
+}
+
+
+
 /* 650 @ 18px/em */
 @media screen and (min-width: 36.111em){
   #cuban-page{
