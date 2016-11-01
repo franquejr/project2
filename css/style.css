@@ -341,17 +341,17 @@ video {
 
 
 /* 650 @ 18px/em */
-@media screen and (min-width:36.111em){
+/*@media screen and (min-width:36.111em){
   #cuban-page{
     margin: 0 25.428% 0 14.285%;
   } 
-}
+}*/
 
 /* 890 @ 18px/em */
-@media screen and (min-width: 49.444){
+/*@media screen and (min-width: 49.444){
   #cuban-page{
     margin: 0;
   } 
-}
+}*/
 
 
