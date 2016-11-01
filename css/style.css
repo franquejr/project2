@@ -309,6 +309,10 @@ video {
 #employer1-desc li {
   list-style: square inside;
 }
+
+#employer2-desc li {
+  list-style: square inside;
+}
 /* ===== STATE STYLES ===== */
 
 /* 460 @ 18px/em*/
