@@ -37,10 +37,6 @@ li:last-child {
   padding-bottom: 0;
 }
 
-#html-about {
-  font-family: 'Neuton', serif;
-}
-
 #about-page ul {
   padding-bottom: 1.2em; /* 1 girdline */
 }
@@ -51,6 +47,10 @@ li:last-child {
 
 #about-page li:last-child {
   padding-bottom: 0;
+}
+
+#html-about {
+  font-family: 'Neuton', serif;
 }
 
 #about-page #about-h1{
@@ -73,30 +73,54 @@ li:last-child {
   font-family: 'Abril Fatface', cursive;
 }
 
-#footer{
-  padding-top: 1.2em; /* 1 girdline */
-  background-color: #c9d6cd;
+#html-sobe{
+  font-family: 'Neuton', serif;
 }
 
-img,
-video {
-  display: block;
-  max-width: 100%;
+#travel #south-beach{
+  font-family: 'Abril Fatface', cursive;
 }
 
-#resume-page {
-  font-family:"Gill Sans Extrabold", Helvetica, sans-serif;
-  background-color: #deefe4; /* https://www.google.com/#q=html+color+picker */
+#travel #cuban-culture{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#travel #mango-intro{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#travel #entertainment{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#html-resume{
+  font-family: 'Neuton', serif;
+}
+
+#resume-page #my-name{
+  font-family: 'Abril Fatface', cursive;
 }
 
 #resume-page #objective{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
+  font-family: 'Abril Fatface', cursive;
+}
+
+#resume-page #education{
+  font-family: 'Abril Fatface', cursive;
+}
+
+#resume-page #emp-history{
+  font-family: 'Abril Fatface', cursive;
 }
 
 #resume-page #my-name {
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
+}
+
+#resume-page #objective{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
 #resume-page #education {
@@ -125,14 +149,28 @@ video {
 }
 
 #travel #south-beach {
-  font-size: 1.953em; /* 39.063/20px = 1.953em*/
-  line-height: 1.777em; /* 45/39.063 = 1.151em */
-  color:#0980e8;
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
+}
+
+#travel #cuban-culture{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#travel #mango-intro{
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+}
+
+#travel #entertainment {
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
 #about-page #about-h1 {
-  font-size: 1.953em; /* 39.063/20px = 1.953em*/
-  line-height: 1.777em; /* 45/39.063 = 1.151em */
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
 }
 
 #about-page #upbringing{
@@ -141,18 +179,18 @@ video {
 }
 
 #about-page #hobbies {
-  font-size: 1.265em; /* 25.313/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
+ font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
 #about-page #photography {
-  font-size: 1.265em; /* 25.313/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
 #about-page #videography {
-  font-size: 1.265em; /* 25.313/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
 #chkn-rice {
@@ -170,23 +208,17 @@ video {
   max-width: 100%;
 }
 
-#travel #cuban-culture {
-  font-size: 1.265em; /* 25.313px/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-  color:#456077;
+img,
+video {
+  display: block;
+  max-width: 100%;
 }
 
-#travel #mango-intro {
-  font-size: 1.265em; /* 25.313px/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-  color:#456077;
+#footer{
+  padding-top: 1.2em; /* 1 girdline */
+  background-color: #c9d6cd;
 }
 
-#travel #entertainment {
-  font-size: 1.265em; /* 25.313px/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-  color:#456077;
-}
 /* ===== LAYOUT STYLES ===== */
 
 #cuban-page{
@@ -202,28 +234,28 @@ video {
 
 #resume-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9;
 }
 
 #resume-page #nav-links {
   position: absolute;
   top: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 #resume-page #nav-links li {
   display: inline-block;
 }
 
-#resume-page #nav-links {
-  padding: 0;
-  line-height: 1;
-}
-
 #resume-page #nav-links li a {
   display: block;
-  background-color: #c9d6cd;
-  color: #302421;
+  background-color: #244166;
+  color: #ced6e0;
   padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
   padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-right: 0.32em;
+  padding-left: 0.32em;/* 0.65/2 */
 }
 
 #resume-page #my-name {
@@ -233,23 +265,22 @@ video {
 #cuban-page #nav-links {
   position: absolute;
   top: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 #cuban-page #nav-links li {
   display: inline-block;
 }
 
-#cuban-page #nav-links {
-  padding: 0;
-  line-height: 1;
-}
-
 #cuban-page #nav-links li a {
   display: block;
-  background-color: #adceb9;
-  color: #456077;
+  background-color: #244166;
+  color: #ced6e0;
   padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
   padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-right: 0.32em;
+  padding-left: 0.32em;/* 0.65/2 */
 }
 
 #cuban-page #south-beach {
@@ -259,23 +290,22 @@ video {
 #about-page #nav-links {
   position: absolute;
   top: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 #about-page #nav-links li {
   display: inline-block;
 }
 
-#about-page #nav-links {
-  padding: 0;
-  line-height: 1;
-}
-
 #about-page #nav-links li a {
   display: block;
-  background-color: #adceb9;
-  color: #456077;
+  background-color: #244166;
+  color: #ced6e0;
   padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
   padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-right: 0.32em;
+  padding-left: 0.32em;/* 0.65/2 */
 }
 
 #about-page #about-h1 {
@@ -286,16 +316,6 @@ video {
 
 .content ul {
   list-style-type: disc;
-}
-
-#link-resume {
-  color: #EFE5BE;
-  background-color: #222;
-}
-
-#link-about {
-  color: #EFE5BE;
-  background-color: #555;
 }
 
 #nav-links li a {
@@ -337,6 +357,7 @@ video {
     margin-left:62.946% ;/* 3 column offset 282px/448px*/
   }
 }
+
 
 
 
