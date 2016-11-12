@@ -49,6 +49,14 @@ li:last-child {
   padding-bottom: 0;
 }
 
+#html-pageone {
+  font-family: 'Neuton', serif;
+}
+
+#page-one #h1{
+  font-family: 'Abril Fatface', cursive;
+}
+
 #html-about {
   font-family: 'Neuton', serif;
 }
@@ -111,6 +119,11 @@ li:last-child {
 
 #resume-page #emp-history{
   font-family: 'Abril Fatface', cursive;
+}
+
+#page-one #h1 {
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
 }
 
 #resume-page #my-name {
@@ -217,6 +230,11 @@ video {
 #footer{
   padding-top: 1.2em; /* 1 girdline */
   background-color: #c9d6cd;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -233,6 +251,11 @@ video {
 
 
 #resume-page{
+  padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9;
+}
+
+#page-one{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
   background-color: #bce0c9;
 }
@@ -312,6 +335,31 @@ video {
   padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
+#page-one #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#page-one #nav-links li {
+  display: inline-block;
+}
+
+#page-one #nav-links li a {
+  display: block;
+  background-color: #244166;
+  color: #ced6e0;
+  padding-top: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
+  padding-right: 0.32em;
+  padding-left: 0.32em;/* 0.65/2 */
+}
+
+#page-one #h1 {
+  padding-top: 3.3em; /* 66px/20px=3.3em*/
+}
+
 /* ===== MODULAR STYLES ===== */
 
 .content ul {
@@ -335,44 +383,5 @@ video {
 }
 /* ===== STATE STYLES ===== */
 
-/* 460 @ 18px/em*/
-@media screen and (min-width: 25.55em){
-
-#cuban-page{
-    padding-left: 2.391%;/* 11px margin / 460 */
-    padding-right: 2.391%;/* 11px margin / 460 */
-  }
-
-#cuban-page #chkn-rice{
-    float: left;
-    width: 58.0357%;/* (3 columns)260px/448px*/
-  }
-  
- #cuban-page #chkn-caption{
-    box-sizing:border-box;
-    width:37.053%; /* 166px/448px*/
-    padding-top:2.391%;
-    padding-bottom:2.391%;
-    padding-right:2.391%;
-    margin-left:62.946% ;/* 3 column offset 282px/448px*/
-  }
-}
-
-
-
-
-/* 650 @ 18px/em */
-/*@media screen and (min-width:36.111em){
-  #cuban-page{
-    margin: 0 25.428% 0 14.285%;
-  } 
-}*/
-
-/* 890 @ 18px/em */
-/*@media screen and (min-width: 49.444){
-  #cuban-page{
-    margin: 0;
-  } 
-}*/
 
 
