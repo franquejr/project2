@@ -230,7 +230,7 @@ video {
 #footer{
   padding-top: 1.2em; /* 1 girdline */
   background-color: #c9d6cd;
-  position: absolute;
+  /*position: absolute;*/
   right: 0;
   bottom: 0;
   left: 0;
@@ -381,6 +381,103 @@ video {
   list-style: square inside;
 }
 /* ===== STATE STYLES ===== */
+
+/*
+8:9 ration
+8+9= 17
+500/17= 29.41
+8x29.41= 235.28
+9x29.41= 264.69
+*/
+
+
+/* 500/16=31.25em */
+
+@media screen and (min-width: 500px) {
+
+  #travel{
+    width: 100%;
+  }
+  #cuban-page{
+    width: 90%;
+    padding: 7% auto;
+  }
+
+  #mango{
+    width:47.05%; /* 235.28/500 = 0.47056*/
+    float: left;
+  }
+
+  #pic1{
+    width:52.93%; /* 264.69/500 = 0.52938 */
+    margin-left:50.85% /* (235.28+22)/500 = 0.50856 */
+  }
+
+  #cafe-cubano{
+    width:47.05%; /* 235.28/500 = 0.47056*/
+    float: left;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  #about-page{
+    width: 100%;
+  }
+  #about{
+    width: 90%;
+    padding: 7% auto;
+  }
+  #my-hobbies{
+    width:47.05%; /* 235.28/500 = 0.47056*/
+    float: left;
+  }
+  #lafitness-logo{
+    width:52.93%; /* 264.69/500 = 0.52938 */
+    margin-left:50.85% /* (235.28+22)/500 = 0.50856 */
+  }
+  #photo-h4{
+    width: 85%;
+    text-align: center;
+    float: left;
+  }
+  #about-h1{
+    text-align:center;
+}
+
+}
+
+@media screen and (max-width: 300px) {
+
+  #resume-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: .60;
+}
+
+@media screen and (max-width: 300px) {
+
+  #cuban-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: .60;
+}
+
+@media screen and (max-width: 300px) {
+
+  #about-page #nav-links {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  line-height: .60;
+}
+
+}
+
+
+
 
 
 
