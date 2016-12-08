@@ -17,11 +17,26 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.25em; /*20px 1 em 1.25@16 */
   line-height: 1.2em; /*24/20= 1.2 em */
+  font-family: 'Neuton', serif;
+  padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
+  background-color: #bce0c9;/* https://www.google.com/#q=html+color+picker */ 
+}
+
+header{
+  font-size: 1.802em; /* 36.041px/20px = 1.802em */
+  line-height: 1.248em; /* 45/36.041 = 1.248em */
 }
 
 h1 {
-  font-size: 1.601em; /* 32.036px/20px = 1.601em */
-  line-height: 1.404em; /* 45/32.036 = 1.404em */
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  font-size: 1.423em; /* 28.477px/20px = 1.423em */
+  line-height: 1.404em; /* 45/28.477 = 1.580em */
+  font-family: 'Abril Fatface', cursive;
 }
 
 p,
@@ -31,6 +46,7 @@ ul {
 
 li {
   padding-bottom: 0.5em; /*half grid line 10px/20px = 0.5em */ 
+  display: inline-block;
 }
 
 li:last-child {
@@ -47,163 +63,6 @@ li:last-child {
 
 #about-page li:last-child {
   padding-bottom: 0;
-}
-
-#html-pageone {
-  font-family: 'Neuton', serif;
-}
-
-#page-one #h1{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#html-about {
-  font-family: 'Neuton', serif;
-}
-
-#about-page #about-h1{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#about-page #upbringing{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#about-page #hobbies{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#about-page #photography{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#about-page #videography{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#html-sobe{
-  font-family: 'Neuton', serif;
-}
-
-#travel #south-beach{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#travel #cuban-culture{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#travel #mango-intro{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#travel #entertainment{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#html-resume{
-  font-family: 'Neuton', serif;
-}
-
-#resume-page #my-name{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#resume-page #objective{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#resume-page #education{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#resume-page #emp-history{
-  font-family: 'Abril Fatface', cursive;
-}
-
-#page-one #h1 {
-  font-size: 1.802em; /* 36.041px/20px = 1.802em */
-  line-height: 1.248em; /* 45/36.041 = 1.248em */
-}
-
-#resume-page #my-name {
-  font-size: 1.802em; /* 36.041px/20px = 1.802em */
-  line-height: 1.248em; /* 45/36.041 = 1.248em */
-}
-
-#resume-page #objective{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#resume-page #education {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#resume-page #emp-history {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#resume-page #employer1-name {
-  font-size: 1.265em; /* 25.313/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-}
-
-#resume-page #employer2-name {
-  font-size: 1.265em; /* 25.313px/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-}
-
-#resume-page #employer2-name {
-  font-size: 1.265em; /* 25.313px/20px = 1.265em */
-  line-height: 1.777em; /* 45/25.313 = 1.777em */
-}
-
-#travel #south-beach {
-  font-size: 1.802em; /* 36.041px/20px = 1.802em */
-  line-height: 1.248em; /* 45/36.041 = 1.248em */
-}
-
-#travel #cuban-culture{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#travel #mango-intro{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#travel #entertainment {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#about-page #about-h1 {
-  font-size: 1.802em; /* 36.041px/20px = 1.802em */
-  line-height: 1.248em; /* 45/36.041 = 1.248em */
-}
-
-#about-page #upbringing{
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#about-page #hobbies {
- font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#about-page #photography {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
-}
-
-#about-page #videography {
-  font-size: 1.423em; /* 28.477px/20px = 1.423em */
-  line-height: 1.404em; /* 45/28.477 = 1.580em */
 }
 
 #chkn-rice {
@@ -227,10 +86,10 @@ video {
   max-width: 100%;
 }
 
-#footer{
+#page-one #footer{
   padding-top: 1.2em; /* 1 girdline */
   background-color: #c9d6cd;
-  /*position: absolute;*/
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
@@ -240,23 +99,18 @@ video {
 
 #cuban-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
-  background-color: #bce0c9; /* https://www.google.com/#q=html+color+picker */ 
 }
 
 #about-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
-  background-color: #bce0c9;
 }
-
 
 #resume-page{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
-  background-color: #bce0c9;
 }
 
 #page-one{
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
-  background-color: #bce0c9;
 }
 
 #resume-page #nav-links {
