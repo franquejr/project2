@@ -17,7 +17,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.25em; /*20px 1 em 1.25@16 */
   line-height: 1.2em; /*24/20= 1.2 em */
-  font-family: 'Neuton', serif;
+  font-family: "Duru Sans", Verdana, sans-serif;
   padding: 1.2em 0.925em; /* 1.2em is 1 gridline and 18.5/20 = 0.925em*/
   background-color: #bce0c9;/* https://www.google.com/#q=html+color+picker */ 
 }
@@ -25,18 +25,24 @@ html {
 header{
   font-size: 1.802em; /* 36.041px/20px = 1.802em */
   line-height: 1.248em; /* 45/36.041 = 1.248em */
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  padding-bottom:2em;
+  padding-top:2em;
+  font-weight:bolder;
 }
+
 
 h1 {
   font-size: 1.423em; /* 28.477px/20px = 1.423em */
   line-height: 1.404em; /* 45/28.477 = 1.580em */
-  font-family: 'Abril Fatface', cursive;
+  font-family: Monotype Cursiva, Univers, Tahoma, Geneva, sans-serif;
+  font-weight:lighter;
 }
 
 h2 {
   font-size: 1.423em; /* 28.477px/20px = 1.423em */
   line-height: 1.404em; /* 45/28.477 = 1.580em */
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Lucida" Grande, sans-serif;
 }
 
 p,
@@ -132,10 +138,6 @@ video {
   padding-bottom: 0.65em;/* 13px/20px = 0.65em (13+20+13= 46)*/
   padding-right: 0.32em;
   padding-left: 0.32em;/* 0.65/2 */
-}
-
-#resume-page #my-name {
-  padding-top: 3.3em; /* 66px/20px=3.3em*/
 }
 
 #cuban-page #nav-links {
@@ -297,41 +299,5 @@ video {
   }
   #about-h1{
     text-align:center;
+  }
 }
-
-}
-
-@media screen and (max-width: 300px) {
-
-  #resume-page #nav-links {
-  position: absolute;
-  top: 0;
-  padding: 0;
-  line-height: .60;
-}
-
-@media screen and (max-width: 300px) {
-
-  #cuban-page #nav-links {
-  position: absolute;
-  top: 0;
-  padding: 0;
-  line-height: .60;
-}
-
-@media screen and (max-width: 300px) {
-
-  #about-page #nav-links {
-  position: absolute;
-  top: 0;
-  padding: 0;
-  line-height: .60;
-}
-
-}
-
-
-
-
-
-
